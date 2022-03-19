@@ -1,0 +1,14 @@
+datingapp:
+  name: "Dating App"
+  api:
+    group: "/api"
+    version: "/v1"
+    url: "localhost:8080"
+  db:
+    host: "localhost"
+    port: "5432"
+    user: "postgres"
+    password: "root"
+    name: "dating"
+  static:
+    upload: "/home/lenovo/IdeaProjects/dating_app/uploads/"
